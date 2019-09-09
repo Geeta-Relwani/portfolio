@@ -2,47 +2,74 @@
     }
 
 .landing-grid{
-    background: #70e1f5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    /* background: #70e1f5;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #ffd194, #70e1f5); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    animation-name: disco;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes disco{
+    from{
+        background: linear-gradient(to right, #ffd194, #70e1f5); 
+    }
+
+    to{
+        background: linear-gradient(to right, #70e1f5, #ffd194);
+    }
+}
+
+.landing-grid > .mdl-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .avatar-img{
     height: 300px;
     width: 300px;
     border-radius: 300px;
-    align-content: center;
-    align-items: center;
+    
 }
 
 .banner-text{
-    background-color: black;
+    background-color:black;
     opacity: .8;
     width: 75%;
     margin: auto;
+    padding-bottom: 0%;
     border-radius: 10px;
     color: white;  
 }
 
 .banner-text h1{
-    font-size: 66px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
     display: flex;
     align-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .banner-text hr{
-   border-top: 5px dotted white;
+   border-top: 2px dotted white;
    margin: auto;
+   margin-top: 0% ;
+   margin-bottom: 2%;
    width: 50%
 }
 
 .banner-text p{
-    font-size: 20px;
+    font-size: 30px;
     margin: auto;
+    padding-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -54,6 +81,3 @@
     margin: auto;
 }
 
-.card{
-    background-color: black
-}

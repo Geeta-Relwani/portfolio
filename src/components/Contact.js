@@ -4,7 +4,8 @@ class Contact extends React.Component{
     render(){
         return(<div>
 
-        Contact
+            <h2>Email: geetarelwani@gmail.com</h2>
+            <h3>Under development</h3>
 
         </div>);
     }

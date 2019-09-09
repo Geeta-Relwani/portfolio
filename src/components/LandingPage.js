@@ -20,7 +20,7 @@ class LandingPage extends React.Component{
                   <h1>Front-End Web Developer</h1>
                   <hr/>
                   <p>HTML | CSS| JavaScript/JQuery | React </p>
-                  <div className="icons">
+                  {/* <div className="icons">
                         <span ><i className="fab fa-html5"></i></span>
                         <span><i className="fab fa-css3-alt"></i></span>
                         <span><i className="fab fa-js-square"></i></span>
@@ -29,7 +29,7 @@ class LandingPage extends React.Component{
                         <i className="fab fa-css3-alt"></i>
                         <i className="fab fa-css3-alt"></i>
                         <i className="fab fa-html5"></i>
-                  </div>
+                  </div> */}
               </div>
                     
                 </Cell>
